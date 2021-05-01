@@ -1,0 +1,12 @@
+$desktop-size: 1024px;
+@mixin lg-screen {
+  @media screen and (min-width: $desktop-size) {
+    @content;
+  }
+}
+
+@mixin sm-screen {
+  @media screen and (max-width: $desktop-size - 1) {
+    @content;
+  }
+}

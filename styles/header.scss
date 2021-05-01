@@ -1,0 +1,59 @@
+@import "breakpoints.scss";
+
+.page-header {
+  padding-top: 30px;
+  @include lg-screen {
+    display: flex;
+  }
+  &__navigation {
+    display: none;
+    @include lg-screen {
+      display: flex;
+      margin-right: 20px;
+    }
+  }
+
+  &__navigation-item {
+    @include lg-screen {
+      height: 50px;
+      width: 120px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 50px;
+
+      text-align: center;
+      color: #000000;
+      &:nth-last-child(1) {
+        width: 180px;
+      }
+    }
+  }
+
+  &__upload-btn {
+    display: none;
+    @include lg-screen {
+      display: block;
+      width: 180px;
+      height: 50px;
+    }
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  @include lg-screen {
+    padding-left: 160px;
+    margin-right: 200px;
+  }
+  &__img {
+    margin-right: 10px;
+  }
+  &__name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1968fc;
+  }
+}
