@@ -1,4 +1,4 @@
-# vangoux
+# Vangoux
 The site is available at https://blvckmagik.github.io/vangoux/
 
 The tech stack is:
