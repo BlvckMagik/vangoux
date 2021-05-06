@@ -7,5 +7,11 @@
   text-transform: uppercase;
   color: #ffffff;
   background-color: #1968fc;
+  box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
   text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+}
+
+.title-underline {
+  width: 80px;
+  border-bottom: #1968fc 2px solid;
 }

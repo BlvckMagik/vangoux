@@ -35,11 +35,24 @@
       line-height: 40px;
     }
   }
-  &__upload-btn {
+  &__upload-btn-mobile {
     height: 50px;
     width: 300px;
     text-align: center;
     margin-bottom: 80px;
+    @include lg-screen {
+      display: none;
+    }
+  }
+  &__upload-btn-desktop {
+    display: none;
+    @include lg-screen {
+      display: block;
+      height: 50px;
+      width: 300px;
+      text-align: center;
+      margin-bottom: 160px;
+    }
   }
   &__img {
     max-width: 100%;

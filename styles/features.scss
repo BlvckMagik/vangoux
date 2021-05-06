@@ -1,0 +1,112 @@
+@import "breakpoints";
+
+.features {
+  padding: 0 55px 120px 60px;
+  @include lg-screen {
+    padding: 0 155px 115px 120px;
+  }
+  &__title {
+    font-size: 30px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+    @include lg-screen {
+      margin-left: 40px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    @include lg-screen {
+      flex-direction: row;
+      margin-top: 48px;
+      height: 375px;
+      align-items: flex-start;
+    }
+  }
+}
+
+.feature {
+  width: 525px;
+  height: 205px;
+  margin-bottom: 55px;
+  background-color: #fff;
+  box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+  position: relative;
+  @include lg-screen {
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 295px;
+  }
+  &__top {
+    height: 80px;
+    background-color: #f3f7ff;
+    display: flex;
+    @include lg-screen {
+      height: 120px;
+      align-items: center;
+    }
+  }
+
+  &__pic {
+    @include lg-screen {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    margin-left: 20px;
+    line-height: 80px;
+    font-weight: 600;
+    font-size: 20px;
+    @include lg-screen {
+      line-height: 30px;
+      margin-right: 20px;
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 30px 40px;
+    @include lg-screen {
+      margin: 40px;
+    }
+  }
+
+  &__decoration {
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+  }
+}
+
+.feature-first {
+  margin-top: 48px;
+  @include lg-screen {
+    margin: 0;
+    margin-right: 69px;
+    margin-left: 40px;
+  }
+}
+
+.feature-third {
+  margin: 0;
+  @include lg-screen {
+    margin-top: 80px;
+  }
+}
+
+.feature-second {
+  @include lg-screen {
+    margin: 0;
+    margin-top: 40px;
+    margin-right: 81px;
+  }
+}

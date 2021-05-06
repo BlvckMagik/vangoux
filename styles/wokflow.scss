@@ -1,0 +1,112 @@
+@import "breakpoints.scss";
+.wokflow {
+  padding: 0 55px 120px 60px;
+  @include lg-screen {
+    padding-bottom: 115px;
+    padding-left: 120px;
+  }
+  &__title {
+    margin: 0;
+    font-size: 30px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    @include lg-screen {
+      margin-left: 40px;
+    }
+  }
+
+  &__container {
+    margin: auto;
+    margin-top: 48px;
+    @include lg-screen {
+      display: flex;
+    }
+  }
+
+  &__line {
+    height: 40px;
+    border-left: 2px dashed #1968fc;
+    margin-left: 59px;
+    @include lg-screen {
+      height: 0;
+      width: 70px;
+      border: none;
+      border-top: 2px dashed #1968fc;
+      margin: 0;
+      margin-top: 110px;
+    }
+  }
+}
+
+.wokflow-step {
+  margin: auto;
+  position: relative;
+  width: 525px;
+  height: 185px;
+  background: #ffffff;
+  box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+  padding: 40px;
+  @include lg-screen {
+    width: 325px;
+    height: 225px;
+    margin: 0;
+  }
+  &__title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #1967fa;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  &__decoration {
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+  }
+}
+
+.first-step {
+  @include lg-screen {
+    margin-left: 40px;
+  }
+}
+
+.second-step {
+  @include lg-screen {
+    margin-top: 40px;
+  }
+}
+
+.third-step {
+  @include lg-screen {
+    margin-top: 80px;
+  }
+}
+
+.second-line {
+  @include lg-screen {
+    margin-top: 149px;
+  }
+}
