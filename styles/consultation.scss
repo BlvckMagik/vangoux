@@ -1,0 +1,68 @@
+.consultation {
+  background-color: $main-blue;
+  padding: 60px;
+  color: $white;
+  margin-bottom: 60px;
+  @include lg-screen {
+    height: 450px;
+    position: relative;
+    padding-left: 120px;
+    padding-top: 80px;
+    margin-bottom: 135px;
+  }
+
+  &__title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    @include lg-screen {
+      margin-left: 40px;
+    }
+  }
+
+  &__line {
+    border-bottom: $white 2px solid;
+    margin-bottom: 38px;
+    @include lg-screen {
+      margin-bottom: 48px;
+    }
+  }
+
+  &__description {
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    @include lg-screen {
+      width: 640px;
+      margin-left: 40px;
+    }
+  }
+
+  &__button {
+    width: 320px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: $white;
+    color: $main-blue;
+    @include lg-screen {
+      margin-left: 40px;
+    }
+  }
+
+  &__img {
+    display: none;
+    @include lg-screen {
+      display: block;
+      position: absolute;
+      right: 1px;
+      top: 20px;
+    }
+  }
+}

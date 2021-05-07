@@ -1,0 +1,73 @@
+.page-footer {
+  background-color: #fbfbfb;
+  height: 130px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  &__menu-item {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    color: $black;
+    display: none;
+    @include lg-screen {
+      display: block;
+      width: 120px;
+      height: 50px;
+    }
+  }
+
+  &__link {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__img {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    height: 60px;
+    filter: drop-shadow(2px 6px 12px rgba(255, 131, 51, 0.3));
+    @include lg-screen {
+      right: 160px;
+      height: 100px;
+    }
+  }
+}
+.footer-logo {
+  width: 250px;
+  margin-right: 50px;
+  margin-left: 40px;
+  background: rgba(25, 104, 252, 0.05);
+  display: flex;
+  align-items: center;
+  @include lg-screen {
+    margin-left: 160px;
+    margin-right: 70px;
+  }
+
+  &__text {
+    width: 200px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: $main-blue;
+  }
+}
+
+.facebook-link {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/IconFacebook.png);
+  margin-right: 3px;
+  @include lg-screen {
+    margin-left: 50px;
+    margin-right: 0;
+  }
+}
+
+.inst-link {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/IconInstagram.png);
+}

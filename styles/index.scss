@@ -1,3 +1,5 @@
+@import "variables.scss";
+@import "breakpoints.scss";
 @import "common.scss";
 @import "header.scss";
 @import "headline.scss";
@@ -6,6 +8,9 @@
 @import "features.scss";
 @import "users.scss";
 @import "purposes.scss";
+@import "consultation.scss";
+@import "stories.scss";
+@import "page-footer.scss";
 
 * {
   box-sizing: border-box;
@@ -33,5 +38,6 @@ html {
     width: 1440px;
     margin: auto;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
+    background-repeat: no-repeat;
   }
 }

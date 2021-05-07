@@ -1,0 +1,73 @@
+@import "breakpoints.scss";
+
+.stories {
+  padding: 0 60px 61px 60px;
+  @include lg-screen {
+    padding: 0 160px 120px 120px;
+  }
+  &__title {
+    margin: 0;
+    font-size: 30px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    @include lg-screen {
+      margin-left: 40px;
+    }
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    @include lg-screen {
+      flex-direction: row;
+      margin-left: 40px;
+    }
+  }
+}
+
+.story-card {
+  position: relative;
+  margin-left: 60px;
+  margin-top: 38px;
+  &:last-child {
+    margin-top: 40px;
+    @include lg-screen {
+      margin-top: 48px;
+    }
+  }
+  @include lg-screen {
+    width: 480px;
+    margin-top: 48px;
+
+    &:first-child {
+      margin-right: 150px;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    left: -60px;
+  }
+
+  &__title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    color: #111111;
+    margin-bottom: 20px;
+  }
+
+  &__title-second {
+    margin-bottom: 19px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 30px;
+    color: $black;
+  }
+  &__link {
+    color: $black;
+  }
+}
