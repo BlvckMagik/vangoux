@@ -1,6 +1,7 @@
 .purposes {
   padding: 60px;
   padding-top: 0;
+  padding-bottom: 0;
   @include lg-screen {
     padding: 0 160px 120px 120px;
   }
@@ -23,6 +24,7 @@
     margin-bottom: 10px;
     font-size: 30px;
     line-height: 60px;
+    font-weight: normal;
     text-transform: uppercase;
     @include lg-screen {
       display: none;
@@ -30,7 +32,7 @@
   }
 
   &__container {
-    margin-top: 38px;
+    margin-top: 60px;
     @include lg-screen {
       display: flex;
       flex-wrap: wrap;

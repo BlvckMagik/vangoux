@@ -587,6 +587,7 @@
 .purposes {
   padding: 60px;
   padding-top: 0;
+  padding-bottom: 0;
 }
 @media screen and (min-width: 1024px) {
   .purposes {
@@ -612,6 +613,7 @@
   margin-bottom: 10px;
   font-size: 30px;
   line-height: 60px;
+  font-weight: normal;
   text-transform: uppercase;
 }
 @media screen and (min-width: 1024px) {
@@ -620,7 +622,7 @@
   }
 }
 .purposes__container {
-  margin-top: 38px;
+  margin-top: 60px;
 }
 @media screen and (min-width: 1024px) {
   .purposes__container {
@@ -661,6 +663,7 @@
 }
 
 .consultation {
+  margin-top: 60px;
   background-color: #1968fc;
   padding: 60px;
   color: #fff;
@@ -681,7 +684,6 @@
   font-size: 30px;
   line-height: 60px;
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 @media screen and (min-width: 1024px) {
   .consultation__title {
@@ -689,8 +691,9 @@
   }
 }
 .consultation__line {
+  margin-top: 10px;
   border-bottom: #fff 2px solid;
-  margin-bottom: 38px;
+  margin-bottom: 50px;
 }
 @media screen and (min-width: 1024px) {
   .consultation__line {
