@@ -1,8 +1,9 @@
 .wokflow {
   padding: 0 55px 120px 60px;
   @include lg-screen {
-    padding-bottom: 115px;
-    padding-left: 120px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-bottom: 120px;
   }
   &__title {
     margin: 0;
@@ -11,7 +12,7 @@
     text-transform: uppercase;
     margin-bottom: 10px;
     @include lg-screen {
-      margin-left: 40px;
+      margin-left: 0px;
     }
   }
 
@@ -88,7 +89,7 @@
 
 .first-step {
   @include lg-screen {
-    margin-left: 40px;
+    margin-left: 0px;
   }
 }
 

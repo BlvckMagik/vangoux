@@ -4,6 +4,11 @@
   position: relative;
   display: flex;
   align-items: center;
+  @include lg-screen {
+    width: 1440px;
+    position: relative;
+    right: 160px;
+  }
   &__menu-item {
     font-weight: 600;
     font-size: 14px;

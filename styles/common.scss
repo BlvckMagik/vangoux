@@ -14,4 +14,8 @@
 .title-underline {
   width: 80px;
   border-bottom: $main-blue 2px solid;
+  @include lg-screen {
+    position: relative;
+    right: 40px;
+  }
 }

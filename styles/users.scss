@@ -1,7 +1,8 @@
 .users {
   padding: 0 60px 100px 60px;
   @include lg-screen {
-    padding: 0 160px 120px 120px;
+    padding: 0;
+    margin-bottom: 120px;
   }
 
   &__title-desktop {
@@ -12,7 +13,7 @@
     display: none;
     @include lg-screen {
       display: block;
-      margin-left: 40px;
+      margin-bottom: 10px;
     }
   }
 
@@ -34,7 +35,6 @@
     margin-top: 28px;
     @include lg-screen {
       margin-top: 38px;
-      margin-left: 40px;
       justify-content: initial;
     }
   }

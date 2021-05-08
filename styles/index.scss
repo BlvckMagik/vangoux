@@ -25,6 +25,7 @@ html {
 .page {
   min-height: 100vh;
   position: relative;
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(
@@ -36,6 +37,9 @@ html {
   );
   @include lg-screen {
     width: 1440px;
+    padding-top: 30px;
+    padding-left: 160px;
+    padding-right: 160px;
     margin: auto;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
     background-repeat: no-repeat;

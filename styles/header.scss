@@ -1,13 +1,16 @@
 .page-header {
-  padding-top: 30px;
+  padding-left: 80px;
+
   @include lg-screen {
     display: flex;
+    padding-left: 0;
   }
   &__navigation {
     display: none;
     @include lg-screen {
       display: flex;
       margin-right: 20px;
+      margin-left: 220px;
     }
   }
 
@@ -40,10 +43,8 @@
 .logo {
   display: flex;
   align-items: center;
-  padding-left: 80px;
   @include lg-screen {
-    padding-left: 160px;
-    margin-right: 200px;
+    padding-left: 0;
   }
   &__img {
     margin-right: 10px;

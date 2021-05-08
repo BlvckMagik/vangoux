@@ -1,16 +1,14 @@
 .features {
   padding: 0 55px 120px 60px;
   @include lg-screen {
-    padding: 0 155px 115px 120px;
+    padding: 0;
+    margin-bottom: 120px;
   }
   &__title {
     font-size: 30px;
     line-height: 60px;
     text-transform: uppercase;
     margin: 0 0 10px 0;
-    @include lg-screen {
-      margin-left: 40px;
-    }
   }
 
   &__list {
@@ -90,7 +88,6 @@
   @include lg-screen {
     margin: 0;
     margin-right: 69px;
-    margin-left: 40px;
   }
 }
 

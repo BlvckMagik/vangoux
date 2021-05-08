@@ -15,13 +15,20 @@
   width: 80px;
   border-bottom: #1968fc 2px solid;
 }
+@media screen and (min-width: 1024px) {
+  .title-underline {
+    position: relative;
+    right: 40px;
+  }
+}
 
 .page-header {
-  padding-top: 30px;
+  padding-left: 80px;
 }
 @media screen and (min-width: 1024px) {
   .page-header {
     display: flex;
+    padding-left: 0;
   }
 }
 .page-header__navigation {
@@ -31,6 +38,7 @@
   .page-header__navigation {
     display: flex;
     margin-right: 20px;
+    margin-left: 220px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -61,12 +69,10 @@
 .logo {
   display: flex;
   align-items: center;
-  padding-left: 80px;
 }
 @media screen and (min-width: 1024px) {
   .logo {
-    padding-left: 160px;
-    margin-right: 200px;
+    padding-left: 0;
   }
 }
 .logo__img {
@@ -85,7 +91,8 @@
 }
 @media screen and (min-width: 1024px) {
   .headline__container {
-    margin: 150px 160px 0 160px;
+    margin: 0;
+    margin-top: 150px;
   }
 }
 .headline__title {
@@ -244,8 +251,9 @@
 }
 @media screen and (min-width: 1024px) {
   .wokflow {
-    padding-bottom: 115px;
-    padding-left: 120px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-bottom: 120px;
   }
 }
 .wokflow__title {
@@ -257,7 +265,7 @@
 }
 @media screen and (min-width: 1024px) {
   .wokflow__title {
-    margin-left: 40px;
+    margin-left: 0px;
   }
 }
 .wokflow__container {
@@ -334,7 +342,7 @@
 
 @media screen and (min-width: 1024px) {
   .first-step {
-    margin-left: 40px;
+    margin-left: 0px;
   }
 }
 
@@ -361,7 +369,8 @@
 }
 @media screen and (min-width: 1024px) {
   .features {
-    padding: 0 155px 115px 120px;
+    padding: 0;
+    margin-bottom: 120px;
   }
 }
 .features__title {
@@ -369,11 +378,6 @@
   line-height: 60px;
   text-transform: uppercase;
   margin: 0 0 10px 0;
-}
-@media screen and (min-width: 1024px) {
-  .features__title {
-    margin-left: 40px;
-  }
 }
 .features__list {
   display: flex;
@@ -459,7 +463,6 @@
   .feature-first {
     margin: 0;
     margin-right: 69px;
-    margin-left: 40px;
   }
 }
 
@@ -485,7 +488,8 @@
 }
 @media screen and (min-width: 1024px) {
   .users {
-    padding: 0 160px 120px 120px;
+    padding: 0;
+    margin-bottom: 120px;
   }
 }
 .users__title-desktop {
@@ -498,7 +502,7 @@
 @media screen and (min-width: 1024px) {
   .users__title-desktop {
     display: block;
-    margin-left: 40px;
+    margin-bottom: 10px;
   }
 }
 .users__title-mobile {
@@ -523,7 +527,6 @@
 @media screen and (min-width: 1024px) {
   .users__container {
     margin-top: 38px;
-    margin-left: 40px;
     justify-content: initial;
   }
 }
@@ -591,7 +594,8 @@
 }
 @media screen and (min-width: 1024px) {
   .purposes {
-    padding: 0 160px 120px 120px;
+    padding: 0;
+    margin-bottom: 120px;
   }
 }
 .purposes__title-desktop {
@@ -604,7 +608,6 @@
 @media screen and (min-width: 1024px) {
   .purposes__title-desktop {
     display: block;
-    margin-left: 40px;
     margin-bottom: 10px;
   }
 }
@@ -628,7 +631,6 @@
   .purposes__container {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 40px;
   }
 }
 
@@ -671,11 +673,14 @@
 }
 @media screen and (min-width: 1024px) {
   .consultation {
+    position: relative;
+    right: 160px;
+    width: 1440px;
     height: 450px;
     position: relative;
     padding-left: 120px;
-    padding-top: 80px;
     margin-bottom: 135px;
+    margin-top: 0;
   }
 }
 .consultation__title {
@@ -744,7 +749,8 @@
 }
 @media screen and (min-width: 1024px) {
   .stories {
-    padding: 0 160px 120px 120px;
+    padding: 0;
+    margin-bottom: 120px;
   }
 }
 .stories__title {
@@ -754,11 +760,6 @@
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-@media screen and (min-width: 1024px) {
-  .stories__title {
-    margin-left: 40px;
-  }
-}
 .stories__container {
   display: flex;
   flex-direction: column;
@@ -766,7 +767,6 @@
 @media screen and (min-width: 1024px) {
   .stories__container {
     flex-direction: row;
-    margin-left: 40px;
   }
 }
 
@@ -822,6 +822,13 @@
   position: relative;
   display: flex;
   align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  .page-footer {
+    width: 1440px;
+    position: relative;
+    right: 160px;
+  }
 }
 .page-footer__menu-item {
   font-weight: 600;
@@ -909,6 +916,7 @@ html {
 .page {
   min-height: 100vh;
   position: relative;
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(180deg, rgba(25, 104, 252, 0.0001) 0%, rgba(25, 104, 252, 0.05) 23.07%, rgba(25, 104, 252, 0.0001) 99.94%, rgba(25, 104, 252, 0.05) 100%);
@@ -916,6 +924,9 @@ html {
 @media screen and (min-width: 1024px) {
   .page {
     width: 1440px;
+    padding-top: 30px;
+    padding-left: 160px;
+    padding-right: 160px;
     margin: auto;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
     background-repeat: no-repeat;
