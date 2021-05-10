@@ -6,6 +6,7 @@
   }
 
   &__title-desktop {
+    font-weight: normal;
     font-size: 30px;
     line-height: 60px;
     text-transform: uppercase;
@@ -19,6 +20,7 @@
 
   &__title-mobile {
     margin: 0;
+    font-weight: normal;
     font-size: 30px;
     line-height: 60px;
     text-transform: uppercase;

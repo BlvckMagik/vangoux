@@ -274,6 +274,7 @@
   margin: 0;
   font-size: 30px;
   line-height: 60px;
+  font-weight: normal;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -389,6 +390,7 @@
 }
 .features__title {
   font-size: 30px;
+  font-weight: normal;
   line-height: 60px;
   text-transform: uppercase;
   margin: 0 0 10px 0;
@@ -420,7 +422,7 @@
   .feature {
     display: flex;
     flex-direction: column;
-    width: 325px;
+    width: 320px;
     height: 295px;
   }
 }
@@ -507,6 +509,7 @@
   }
 }
 .users__title-desktop {
+  font-weight: normal;
   font-size: 30px;
   line-height: 60px;
   text-transform: uppercase;
@@ -521,6 +524,7 @@
 }
 .users__title-mobile {
   margin: 0;
+  font-weight: normal;
   font-size: 30px;
   line-height: 60px;
   text-transform: uppercase;
@@ -613,6 +617,7 @@
   }
 }
 .purposes__title-desktop {
+  font-weight: normal;
   margin: 0;
   font-size: 30px;
   line-height: 60px;
@@ -626,6 +631,7 @@
   }
 }
 .purposes__title-mobile {
+  font-weight: normal;
   margin: 0;
   margin-bottom: 10px;
   font-size: 30px;
@@ -699,6 +705,7 @@
   }
 }
 .consultation__title {
+  display: inline-block;
   margin: 0;
   font-weight: bold;
   font-size: 30px;
@@ -763,6 +770,7 @@
   }
 }
 .stories__title {
+  font-weight: normal;
   margin: 0;
   font-size: 30px;
   line-height: 60px;
