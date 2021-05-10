@@ -234,6 +234,7 @@
   font-size: 14px;
   line-height: 30px;
   color: #1967fa;
+  opacity: 0.8;
 }
 .review__quotes {
   position: absolute;
@@ -243,6 +244,19 @@
 @media screen and (min-width: 1024px) {
   .review:nth-child(1) {
     margin-right: 40px;
+  }
+}
+.review__text-desktop {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .review__text-desktop {
+    display: block;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .review__text-mobile {
+    display: none;
   }
 }
 
@@ -678,7 +692,8 @@
     width: 1440px;
     height: 450px;
     position: relative;
-    padding-left: 120px;
+    padding-top: 80px;
+    padding-left: 160px;
     margin-bottom: 135px;
     margin-top: 0;
   }
@@ -689,11 +704,6 @@
   font-size: 30px;
   line-height: 60px;
   text-transform: uppercase;
-}
-@media screen and (min-width: 1024px) {
-  .consultation__title {
-    margin-left: 40px;
-  }
 }
 .consultation__line {
   margin-top: 10px;
@@ -713,7 +723,6 @@
 @media screen and (min-width: 1024px) {
   .consultation__description {
     width: 640px;
-    margin-left: 40px;
   }
 }
 .consultation__button {
